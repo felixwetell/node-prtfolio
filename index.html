@@ -4,6 +4,7 @@
 <head>
     <link href="/css/main.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="/css/index.css" rel="stylesheet"  type="text/css"/>
 
     <meta name="viewport" content="width=device-width" />
     <meta charset="utf-8" />
@@ -13,22 +14,22 @@
 
 <body>
     <div id="nav-bar">
-        <a href="~/">
+        <a href="/">
             <div class="nav-bar-item" id="logo">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/NYCS-bull-trans-F.svg/2000px-NYCS-bull-trans-F.svg.png" />
             </div>
         </a>
-        <a href="~/">
+        <a href="/">
             <div class="nav-bar-item" id="nav-home">
                 <div class="item-text">home</div>
             </div>
         </a>
-        <a href="~/Home/About">
+        <a href="/about">
             <div class="nav-bar-item" id="nav-about">
                 <div class="item-text">about</div>
             </div>
         </a>
-        <a href="~/Home/Contact">
+        <a href="/contact">
             <div class="nav-bar-item" id="nav-contact">
                 <div class="item-text">contact</div>
             </div>
@@ -37,15 +38,28 @@
 
     <ul class="hamburger-menu" id="hamburger">
         <li><a id="hamburger-logo"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/NYCS-bull-trans-F.svg/2000px-NYCS-bull-trans-F.svg.png" /></a></li>
-        <li><a href="../Home/Index">Home</a></li>
-        <li><a href="../Home/About">About</a></li>
-        <li><a href="../Home/Contact">Contact</a></li>
+        <li><a href="/index">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact</a></li>
         <li class="icon">
             <a href="javascript:void(0);" style="font-size:15px;" onclick="openHamburger()">☰</a>
         </li>
     </ul>
     
-    
+    <div id="page-ID" name="home"></div>
+
+    <div class="content">
+        <h1>
+            <span>FELIX</span>
+            <br />
+            <span>WETELL</span>
+        </h1>
+
+        <h2>
+            <span style="color: #27ae60;">SOFTWARE DEVELOPER</span>
+        </h2>
+        <div class="hover-bar"></div>
+    </div>
 
     <script src="/js/nav.js"></script>
     <script src="/js/hamburger.js"></script>
